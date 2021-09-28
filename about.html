@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="backgroundNavbar">
+
+        <nav class="navbar">
+            <div class="logo"><a href="#" >Portfo<span>lio.</span></a></div>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" id="about">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+              </ul>
+         </nav>
+    </div>
+
+        <div class="about-session">
+            <div class="about-top">
+                <span>About me </span>
+                <span>---who I am---</span>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                </div>
+                <div class="my-info">
+                    <h2>I am Imtiyaz, I'm <span class="typing" style="color: #1e90ff"></span></h2>
+                    <p>
+                        I really like to develop a web-pages and have a couple years' experience as a freelancer working with clients. 
+                        I could see myself working with your team because it seems like a great place to work.
+                    </p>
+                    <div class="download-container">
+                        <a href="#" class="download-btn"> <i class="fas fa-cloud-download-alt "></i> Download CV</a>
+                        <div class="countdown"></div>
+                        <div class="pleaseWait-text">Please Wait...</div>
+                        <div class="manualDownload-text">Direct Link <a href="" class="manualDownload-link">click here.</a></div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Myskills -->
+
+        <div class="about-session">
+            <div class="about-top">
+                <span>My Skills </span>
+                <span>---what I know---</span>
+            </div>
+            <div class="about-content-skills">
+                
+                <div class="my-info-skills">
+                    <h2>My Creative Skills and Experience.</h2>
+                    <p>
+                        I have created and designed many web-pages front-end as well as back-end with database.
+                        I have the experience of couple of years working on the freelancer with the clients
+                        and made a projects using Html, css, JavaScript, Php, Mysql. 
+                        
+
+
+                    </p>
+                    <button>Read more</button>
+                </div>
+                <div class="about-programming-skills">
+                   
+                    <table>
+                        <tr>
+                            <td><label for="file">HTML:</label></td>
+                            <td><progress id="file" value="90" max="100"> 90% </progress></td>
+                        </tr>
+                        <tr>
+                            <td><label for="file">CSS:</label></td>
+                            <td> <progress id="file" value="60" max="100"> 60% </progress></td>
+                        </tr>
+                        <tr>
+                            <td><label for="file">JavaScript:</label></td>
+                            <td> <progress id="file" value="70" max="100"> 70% </progress></td>
+                        </tr>
+                        <tr>
+                            <td><label for="file">PHP:</label></td>
+                            <td><progress id="file" value="52" max="100"> 52% </progress></td>
+                        </tr>
+                        <tr>
+                            <td><label for="file">MySql:</label></td>
+                            <td><progress id="file" value="32" max="100"> 32% </progress> </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>  
+        </div>
+
+        <section class="award">
+            <div class="Award-heading">
+                <p>
+                    MORE THAN 2,000 WEBSITES CREATED
+                </p>
+            </div>
+
+            <div class="Award-session">
+                <div>
+                    <h1 class="count">1500</h1>
+                    <p>CMS Installation</p>
+                </div>
+                <div>
+                    <h1 class="count">700</h1>
+                    <p>Awards won</p>
+                </div>
+                <div>
+                    <h1 class="count">1150</h1>
+                    <p>Happy Clients</p>
+                </div>
+                <div>
+                    <h1 class="count">500</h1>
+                    <p>Working On</p>
+                </div>
+            </div>  
+            
+            <script>
+                $('.count').counterUp({
+                    delay:10,
+                    time:2000
+                })
+            </script>
+
+        </section>
+
+        <footer>
+            <span>Created By <a href="#">Imtiyaz Jiwani</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+        </footer>
+        
+        <script src="JS File/DownloadFile.js"></script>
+        <script src="JS File/TypingAnimate.js"></script>
+        
+</body>
+</html>

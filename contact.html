@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<style>
+    form span {
+        color: red;
+
+    }
+</style>
+
+<body>
+
+    <div class="backgroundNavbar">
+
+        <nav class="navbar">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" id="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="contact-session">
+        <div class="contact-top">
+            <span>Contact me</span>
+            <span>---get In touch---</span>
+        </div>
+    </div>
+    <div class="get-in-touch">
+        <div class="left">
+            <h2>Get in touch</h2>
+            <p>Connect with me and stay in touch for projects, feel free to message me for project any time.</p>
+            <div class="in">
+                <p>Name</p>
+                <p class="gray">Imtiyaz Jiwani</p>
+            </div>
+            <div class="in">
+                <p>Address</p>
+                <p class="gray">Mumbai, Maharashtra</p>
+            </div>
+            <div class="in">
+                <p>Email</p>
+                <p class="gray">jiwaniimtiyaaz@gmail.com</p>
+            </div>
+        </div>
+        <div class="right">
+            <form action="registrationData.html" onsubmit=" return validateForm()" novalidate>
+                <h2>Message me</h2>
+
+
+                <div class="form-val">
+
+                    <input type="text" placeholder="Name" id="fname" onblur="validate1()">
+                    <span id="error1"></span>
+
+                </div>
+                <div class="form-val">
+                    <input type="Email" placeholder="Email" id="email" onblur="validate2()">
+                    <span id="error2"></span>
+                </div>
+
+
+
+                <div class="form-val">
+                    <input type="text" placeholder="Subject" id="subject" onblur="validate3()">
+                    <span id="error3"></span>
+                </div>
+
+                <div class="form-val">
+                    <textarea id="textArea" cols="30" rows="3" placeholder="Message.."
+                        onblur="validate4()"></textarea><br>
+                    <span id="error4"></span>
+                </div>
+
+                <button>Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <span>Created By <a href="#">Imtiyaz Jiwani</a> | <span class="far fa-copyright"></span> 2021 All rights
+            reserved.</span>
+    </footer>
+    <script src="JS File/validation.js"></script>
+</body>
+
+</html>
